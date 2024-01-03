@@ -1,0 +1,14 @@
+{
+  "name": "screenshoter",
+  "module": "index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "capture-website": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
