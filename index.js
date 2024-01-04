@@ -31,6 +31,7 @@ app.post("/screenshot", async function handler(req, res) {
     const { data } = await axios.post(process.env.IMG_URL, form);
     res.send(data.data);
   } catch (e) {
+    console.log(e)
     if (axios.isAxiosError(e)) {
       const error = e;
       res.send(error.response?.data);
