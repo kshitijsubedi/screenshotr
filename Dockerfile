@@ -1,5 +1,4 @@
-FROM node:20-alpine
-
+FROM --platform=linux/amd64 ghcr.io/puppeteer/puppeteer:latest
 # Path: /app
 WORKDIR /app
 
